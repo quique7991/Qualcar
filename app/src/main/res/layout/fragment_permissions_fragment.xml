@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.application.qualcar.qualcar.permissions_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layout">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/permission_fragment_string"
+            android:id="@+id/permission_fragment_text"
+            android:textAlignment="viewStart"
+            android:layout_weight="1" />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="@string/permission_fragment_string"
+            android:id="@+id/permission_fragment_switch"
+            android:layout_gravity="right"
+            android:checked="false" />
+    </LinearLayout>
+</FrameLayout>

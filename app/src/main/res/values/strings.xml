@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Qualcar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="name_string">Name</string>
+    <string name="permissions_string">Permissions</string>
+    <string name="rules_string">Rules</string>
+    <string name="permission_fragment_string">Permission 1</string>
+    <string name="c">ON</string>
+    <string name="title_activity_graph_activity">graph_activity</string>
+</resources>
